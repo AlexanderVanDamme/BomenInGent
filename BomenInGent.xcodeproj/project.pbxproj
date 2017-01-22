@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116B8D4E1E350B43000D6F14 /* StraatboomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116B8D4D1E350B43000D6F14 /* StraatboomViewController.swift */; };
 		11A872DF1E1EB22000112DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A872DE1E1EB22000112DAE /* AppDelegate.swift */; };
-		11A872E11E1EB22000112DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A872E01E1EB22000112DAE /* ViewController.swift */; };
 		11A872E41E1EB22000112DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A872E21E1EB22000112DAE /* Main.storyboard */; };
 		11A872E71E1EB22000112DAE /* BomenInGent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11A872E51E1EB22000112DAE /* BomenInGent.xcdatamodeld */; };
 		11A872E91E1EB22000112DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A872E81E1EB22000112DAE /* Assets.xcassets */; };
 		11A872EC1E1EB22000112DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A872EA1E1EB22000112DAE /* LaunchScreen.storyboard */; };
+		11FB2E601E325575007373B3 /* Straatboom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2E5F1E325575007373B3 /* Straatboom.swift */; };
+		11FB2E641E3256A1007373B3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2E631E3256A1007373B3 /* Result.swift */; };
+		11FB2E661E3256DF007373B3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2E651E3256DF007373B3 /* Service.swift */; };
+		11FB2E6A1E32B111007373B3 /* StraatbomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2E691E32B111007373B3 /* StraatbomenViewController.swift */; };
+		11FB2E6F1E33BF35007373B3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2E6E1E33BF35007373B3 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116B8D4D1E350B43000D6F14 /* StraatboomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraatboomViewController.swift; sourceTree = "<group>"; };
 		11A872DB1E1EB22000112DAE /* BomenInGent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BomenInGent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A872DE1E1EB22000112DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11A872E01E1EB22000112DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11A872E31E1EB22000112DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A872E61E1EB22000112DAE /* BomenInGent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BomenInGent.xcdatamodel; sourceTree = "<group>"; };
 		11A872E81E1EB22000112DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A872EB1E1EB22000112DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A872ED1E1EB22000112DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FB2E5F1E325575007373B3 /* Straatboom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Straatboom.swift; sourceTree = "<group>"; };
+		11FB2E631E3256A1007373B3 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		11FB2E651E3256DF007373B3 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		11FB2E691E32B111007373B3 /* StraatbomenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StraatbomenViewController.swift; sourceTree = "<group>"; };
+		11FB2E6E1E33BF35007373B3 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		11A872DD1E1EB22000112DAE /* BomenInGent */ = {
 			isa = PBXGroup;
 			children = (
+				11FB2E701E33BF86007373B3 /* Cells */,
+				11FB2E5E1E325546007373B3 /* Model */,
+				11FB2E611E325608007373B3 /* Service */,
+				11FB2E621E325644007373B3 /* ViewControllers */,
 				11A872DE1E1EB22000112DAE /* AppDelegate.swift */,
-				11A872E01E1EB22000112DAE /* ViewController.swift */,
-				11A872E21E1EB22000112DAE /* Main.storyboard */,
 				11A872E81E1EB22000112DAE /* Assets.xcassets */,
+				11A872E21E1EB22000112DAE /* Main.storyboard */,
 				11A872EA1E1EB22000112DAE /* LaunchScreen.storyboard */,
 				11A872ED1E1EB22000112DAE /* Info.plist */,
 				11A872E51E1EB22000112DAE /* BomenInGent.xcdatamodeld */,
 			);
 			path = BomenInGent;
+			sourceTree = "<group>";
+		};
+		11FB2E5E1E325546007373B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11FB2E5F1E325575007373B3 /* Straatboom.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		11FB2E611E325608007373B3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				11FB2E631E3256A1007373B3 /* Result.swift */,
+				11FB2E651E3256DF007373B3 /* Service.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		11FB2E621E325644007373B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11FB2E691E32B111007373B3 /* StraatbomenViewController.swift */,
+				116B8D4D1E350B43000D6F14 /* StraatboomViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11FB2E701E33BF86007373B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				11FB2E6E1E33BF35007373B3 /* CustomCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A872E11E1EB22000112DAE /* ViewController.swift in Sources */,
+				11FB2E641E3256A1007373B3 /* Result.swift in Sources */,
+				116B8D4E1E350B43000D6F14 /* StraatboomViewController.swift in Sources */,
 				11A872DF1E1EB22000112DAE /* AppDelegate.swift in Sources */,
 				11A872E71E1EB22000112DAE /* BomenInGent.xcdatamodeld in Sources */,
+				11FB2E6A1E32B111007373B3 /* StraatbomenViewController.swift in Sources */,
+				11FB2E601E325575007373B3 /* Straatboom.swift in Sources */,
+				11FB2E6F1E33BF35007373B3 /* CustomCell.swift in Sources */,
+				11FB2E661E3256DF007373B3 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +355,7 @@
 				11A872F21E1EB22000112DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
